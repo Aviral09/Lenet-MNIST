@@ -1,0 +1,18 @@
+I am choosing the existing idea of autonomous vehicle navigation for this question
+
+Step 1: finding a phenomenon and a question to ask about it
+
+The question I am asking here is can a vehicle navigate independently without any human guidance whilst moving alongwith other vehicles.
+
+Step 2: understanding the state of the art
+
+Can a vehicle be easily making decisions based on information from surroundings while also dealing with idiosyncrasies of other drivers like not giving a signal for a turn.
+
+Step 3: determining the basic ingredients
+
+The vehicle should be able to able to detect obstacles as well as other vehicles. It should be able to make fast decisions based on basic human tendencies of other drivers as well. For eg. if it sees a vehicle shifting towards the left lane it can deduce that the other may or may not be taking a left turn soon. Even if the driver of the other vehicle doesn't give a signal it should not completely ignore the possibility of him/her taking a left turn.
+
+Step 4: formulating specific, mathematically defined hypotheses &
+Step 5: selecting the toolkit
+
+We can use OpenCV and PyTorch libraries for image detection and processing
